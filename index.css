@@ -12,10 +12,10 @@ body{
 }
 .container{
     border-radius: 30px;
+    margin: auto;
     padding: 0.5rem 2rem;
     background-color: aqua;
-    height: fit-content;
-    width: fit-content;
+ 
 }
 .img{
     padding: 0.5rem 2rem;
@@ -31,4 +31,9 @@ body{
 p{
     font-size: 1rem;
     font-weight: 400;
+}
+@media only screen and (max-width:280px) {
+    .container{
+     margin: 1rem;
+    }
 }
